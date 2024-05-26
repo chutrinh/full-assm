@@ -1,0 +1,8 @@
+/* css banner page cart */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 20px;
+  background-color: aliceblue;
+  margin-bottom: 10px;
+}

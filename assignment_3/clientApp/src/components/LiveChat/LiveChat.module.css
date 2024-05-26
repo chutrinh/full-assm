@@ -1,0 +1,11 @@
+/* css cho icon message */
+.live-chat {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  color: rgb(165, 29, 29);
+}
+.live-chat:hover {
+  cursor: pointer;
+  color: red;
+}

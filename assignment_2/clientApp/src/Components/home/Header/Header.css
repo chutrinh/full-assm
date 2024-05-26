@@ -1,0 +1,79 @@
+/* css cho khối  header */
+#header {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+}
+.header-container {
+  color: white;
+  width: 960px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0px 20px;
+}
+/* css cho phần tiều đề A lifetime of discounts? It's genius*/
+#header h1 {
+  font-size: 34px;
+  margin-top: 20px;
+}
+/* css cho nút bấm sign in / register */
+.header-container .header-btn {
+  width: 180px;
+  font-size: 1.1rem;
+  padding: 5px 5px;
+  border-radius: 10px;
+  background-color: rgb(84, 62, 207);
+  color: white;
+  border: none;
+}
+/* css cho form search */
+#form-header {
+  display: grid;
+  grid-template-columns: 30% 30% 30% 10%;
+  grid-template-rows: 30px;
+  border: 3px solid orange;
+  background-color: aliceblue;
+  color: black;
+  padding: 10px 10px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  transform: translate(0%, 50%);
+  border-radius: 7px;
+  z-index: 1000;
+}
+
+#form-header div input {
+  border: none;
+  width: 80%;
+  height: 100%;
+}
+#form-header div i {
+  margin-right: 10px;
+}
+/* css cho nút nhấn search */
+.btn-search {
+  background-color: blue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+/* tạo ẩn / hiện modal cho trường input date */
+.hidden {
+  display: none;
+}
+
+.header-container {
+  position: relative;
+}
+.note {
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+  background-color: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+}

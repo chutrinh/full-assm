@@ -1,0 +1,35 @@
+/* css cho component banner */
+
+.banner {
+  position: relative;
+}
+.img {
+  width: 100%;
+  /* height: 700px; */
+  position: relative;
+}
+.img img {
+  width: 100%;
+  height: 100%;
+}
+.backgr-dark {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+}
+.infor-banner {
+  position: absolute;
+  top: 30%;
+  width: 30%;
+  color: white;
+  left: 30px;
+}
+.infor-banner button {
+  margin-right: 10px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: none;
+}

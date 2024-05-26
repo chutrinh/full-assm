@@ -1,0 +1,44 @@
+/* css cho phần xem thông tin khác */
+.service {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+  margin: 20px 0;
+  background-color: antiquewhite;
+}
+
+.form-service {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 10px 0;
+}
+.free-shipping,
+.service-24x7,
+.festival-offer {
+  width: 30%;
+  text-align: center;
+}
+/* css cho ô nhập email */
+.form-service .email {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+}
+.form-service .email button {
+  height: 100%;
+  padding: 0 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(182, 202, 219);
+}
+.form-service .email input {
+  height: 100%;
+  width: 100%;
+  font-size: 21px;
+  border-radius: 5px;
+  border: none;
+  padding-left: 10px;
+  background-color: rgb(182, 202, 219);
+}

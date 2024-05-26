@@ -1,0 +1,15 @@
+/* css cho khối footer */
+#footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+#footer .footer-ccontainer {
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+}
+#footer .footer-ccontainer ul li {
+  padding: 8px 0px;
+  color: blue;
+}

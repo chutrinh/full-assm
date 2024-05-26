@@ -1,0 +1,58 @@
+/* css cho cho form tìm kiếm */
+.form {
+  display: flex;
+  justify-content: center;
+}
+.form-container {
+  margin-top: 100px;
+  width: 500px;
+  background-color: rgb(56, 116, 111);
+
+  border-radius: 10px;
+}
+
+.input-form {
+  margin-top: 10px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 10px;
+}
+
+.input-container .input {
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+}
+
+.input-container label {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.input-form svg {
+  width: 24px;
+  margin: 0 20px;
+  padding: 0 10px;
+  background-color: rgb(30, 41, 37);
+  border-radius: 5px;
+}
+.input-form svg:hover,
+.btn-search button:hover {
+  cursor: pointer;
+}
+.btn-search {
+  text-align: right;
+  margin: 30px 20px 10px;
+}
+.btn-search button {
+  border-radius: 5px;
+  border: none;
+  margin-left: 20px;
+  padding: 5px 10px;
+  background-color: olivedrab;
+  color: white;
+}

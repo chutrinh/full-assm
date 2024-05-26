@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Dublin",
+    "subText": "123 properties",
+    "image": "./images/Ha Noi.jpg"
+  },
+  {
+    "name": "Reno",
+    "subText": "533 properties",
+    "image": "./images/HCM.jpg"
+  },
+  {
+    "name": "Austin",
+    "subText": "532 properties",
+    "image": "./images/Da Nang.jpg"
+  }
+]

@@ -1,0 +1,56 @@
+.title-billing {
+  margin: 20px 0;
+}
+
+.billing-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 30px;
+}
+/* col - 1 */
+.col-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 55%;
+}
+.col-1 input {
+  height: 40px;
+  font-size: 18px;
+  padding-left: 5px;
+}
+
+.billing-detail button {
+  padding: 5px 20px;
+  align-self: flex-start;
+  font-size: 21px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+/* col 2 */
+.col-2 {
+  width: 43%;
+  background-color: aliceblue;
+  padding: 10px;
+}
+.name-price-container {
+  flex-direction: column;
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.name-price {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+.total {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5em;
+}

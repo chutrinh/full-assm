@@ -1,0 +1,98 @@
+/* css cho component shopping cart */
+.shopping-cart {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  align-items: start;
+}
+
+.col-1 {
+  width: 70%;
+}
+
+.shopping-title {
+  margin-bottom: 20px;
+}
+
+.table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+.thead {
+  background-color: aliceblue;
+}
+.thead tr .img {
+  width: 150px;
+}
+.tbody tr td img {
+  width: 100%;
+}
+.tbody .quantity span {
+  padding-left: 5px;
+  padding-right: 7px;
+}
+.tbody .quantity i:hover {
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+}
+.delete:hover {
+  cursor: pointer;
+  color: red;
+}
+
+/* chuyển shopping sang sản phẩm khác */
+.derict-shopping {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  margin-top: 20px;
+  background-color: aliceblue;
+}
+.continue,
+.process {
+  margin: 0 20px;
+}
+/* cart-tatol */
+.cart-tatol {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  background-color: aliceblue;
+}
+
+.subtatol,
+.total {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-tatol input {
+  height: 30px;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.apply-coupon {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+.apply-coupon {
+  background-color: black;
+  padding: 10px;
+}
+.apply-coupon i {
+  color: red;
+}
+.apply-coupon button {
+  background-color: black;
+  color: white;
+  border: none;
+}

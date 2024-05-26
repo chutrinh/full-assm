@@ -1,0 +1,53 @@
+/* css cho khối navbar */
+.nav-bar {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* css khối bao quanh navbar */
+.nav-container {
+  color: white;
+  width: 960px;
+}
+.nav-user {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.nav-user h2:hover {
+  cursor: pointer;
+}
+.btn-nav {
+  width: 100px;
+  margin-right: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 5px 0;
+  border: none;
+}
+.btn-nav:hover {
+  cursor: pointer;
+}
+.btn-nav:active {
+  background-color: red;
+}
+/* css khối danh sách menu navbar */
+.nav-list {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.nav-list li {
+  width: 140px;
+  padding: 10px 5px;
+  text-align: center;
+}
+.nav-list li a {
+  color: white;
+}
+.nav-list li a i {
+  padding-right: 10px;
+}

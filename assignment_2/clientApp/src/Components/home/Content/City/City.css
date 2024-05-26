@@ -1,0 +1,33 @@
+/* css khối bao quanh city */
+#content-city {
+  color: white;
+  width: 960px;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+
+  justify-content: space-between;
+}
+/* css cho hình ảnh */
+#content-city li img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+#content-city li {
+  position: relative;
+}
+/* css title cho title nằm bên trong hình ảnh */
+#content-city li h3 {
+  position: absolute;
+  color: white;
+  bottom: 60px;
+  left: 10px;
+  font-size: 34px;
+}
+#content-city li p {
+  position: absolute;
+  color: white;
+  bottom: 30px;
+  left: 10px;
+  font-size: 24px;
+}

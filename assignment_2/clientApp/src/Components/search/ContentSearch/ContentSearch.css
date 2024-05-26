@@ -1,0 +1,72 @@
+/* css khối search */
+#content-search {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+#content-search .content-search-container {
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#content-search .form-search {
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  height: 550px;
+}
+/* css tiêu đề search */
+#content-search .form-search h3 {
+  margin: 10px 0px;
+  font-size: 25px;
+}
+
+/* css khối text arear */
+#content-search .form-search textarea {
+  padding-left: 10px;
+  padding-top: 5px;
+  border-radius: 5px;
+}
+#content-search .form-search textarea + label {
+  margin: 10px 0px;
+}
+/* css khối checkin date */
+#content-search .form-search .check-date {
+  height: 40px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: none;
+}
+/* css khối option */
+#content-search .form-search .option {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+#content-search .form-search .option label {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  opacity: 0.8;
+}
+#content-search .form-search .option input {
+  width: 20%;
+  opacity: 1;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+}
+/* css button submit */
+#content-search .form-search input[type="submit"] {
+  padding: 10px 0px;
+  margin: 10px 30px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}

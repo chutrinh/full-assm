@@ -1,0 +1,28 @@
+/* css cho banner home page */
+.banner {
+  position: relative;
+  margin-bottom: 30px;
+}
+.banner img {
+  width: 100%;
+}
+.banner-infor {
+  position: absolute;
+  top: 50%;
+  left: 50px;
+}
+.banner-infor {
+  color: blue;
+}
+.banner-infor button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: antiquewhite;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+.banner-infor button:hover {
+  cursor: pointer;
+  background-color: rgb(221, 250, 215);
+}

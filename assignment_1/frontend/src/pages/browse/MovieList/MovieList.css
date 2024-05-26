@@ -1,0 +1,91 @@
+/* css cho danh sách phim */
+
+h2 {
+  color: white;
+  padding-left: 20px;
+}
+/* css cho phần danh sách phim có chứa chủ đề là Original */
+.Original {
+  display: flex;
+  height: 300px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  list-style: none;
+  padding: 10px;
+}
+
+.Original:hover {
+  cursor: pointer;
+}
+.Original li {
+  flex-shrink: 0;
+  width: 200px;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Original img:hover {
+  transform: scale(1.12);
+  transform: scale(1.12);
+}
+.Original img {
+  width: 180px;
+  height: 260px;
+  border-radius: 5px;
+  transition: transform 0.5s ease;
+}
+
+/* -css cho tất cả các chủ đề của danh sách phim còn lại   */
+
+.list-movie {
+  display: flex;
+  height: 200px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  list-style: none;
+}
+.list-movie:hover {
+  cursor: pointer;
+}
+.list-movie li {
+  flex-shrink: 0;
+  height: 180px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list-movie img {
+  width: 130px;
+  height: 160px;
+  border-radius: 5px;
+  transition: transform 0.5s ease;
+}
+.list-movie img:hover {
+  transform: scale(1.12);
+  transform: scale(1.12);
+}
+
+/* ----------------------- */
+.box {
+  border: 1px solid green;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+}
+/* ------------ */
+/* scoll bar */
+
+/* CSS cho thanh cuộn ngang */
+.scrollListMovie::-webkit-scrollbar {
+  height: 6px;
+}
+.scrollListMovie::-webkit-scrollbar-thumb {
+  background: #65486d; /* Màu của thumb */
+  border-radius: 5px;
+}
+
+.scrollListMovie::-webkit-scrollbar-thumb:hover {
+  background: rgb(45, 45, 71); /* Màu của thumb khi hover */
+}

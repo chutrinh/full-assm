@@ -1,0 +1,87 @@
+/* css cả khối inforhotel */
+#inforHotel {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+/* css khối bao quanh  inforhotel*/
+.inforHotel-container {
+  width: 960px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0px 20px;
+}
+/* css title */
+.inforHotel-title {
+  display: flex;
+  justify-content: space-between;
+}
+.inforHotel-title h2 {
+  font-size: 28px;
+}
+/* css cho nút button  */
+.inforHotel-title button {
+  background-color: blue;
+  color: white;
+  padding: 0px 10px;
+  border-radius: 10px;
+  border: none;
+}
+.inforHotel-container .inforHotel-distance {
+  color: blue;
+}
+.inforHotel-container .inforHotel-distance + p {
+  color: green;
+}
+/* css cho khối hình ảnh */
+.infor-img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.infor-img li img {
+  width: 100%;
+  border-radius: 10px;
+}
+/* css khối Stay in the heart of City */
+.infor-descripts {
+  display: grid;
+  grid-template-columns: 65% 30%;
+  justify-content: space-between;
+}
+.infor-descripts .descripts-title h3 {
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+.infor-descripts .descripts-title p {
+  font-size: 14px;
+  text-align: justify;
+}
+/* css cho khối Perfect for a 9-night stay! */
+.infor-descripts .descripts-adverment {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: aquamarine;
+  padding: 20px;
+  border-radius: 10px;
+}
+.infor-descripts .descripts-adverment h3 {
+  font-size: 18px;
+  opacity: 0.6;
+}
+.infor-descripts .descripts-adverment p {
+  font-size: 13px;
+  text-align: justify;
+}
+.infor-descripts .descripts-adverment p + p {
+  font-size: 21px;
+}
+.infor-descripts .descripts-adverment button {
+  background-color: blue;
+  color: white;
+  padding: 10px 0px;
+  border-radius: 10px;
+  border: none;
+}

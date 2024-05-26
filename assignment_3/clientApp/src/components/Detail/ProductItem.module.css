@@ -1,0 +1,118 @@
+/* css cho component xem chi tiết sản phẩm */
+.prduct {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+}
+/* css cho hình ảnh lớn */
+.prduct .img {
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+.prduct .img img {
+  width: 70%;
+}
+
+.prduct .img-extra {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+/* css cho thông tin sản phẩm */
+
+.infor-product {
+  width: 40%;
+}
+.infor-product h2 {
+  font-size: 38px;
+}
+.infor-product :nth-child(2) {
+  padding: 20px 0;
+}
+.infor-product :nth-child(3) {
+  text-align: justify;
+  margin: 10px 0;
+}
+.infor-product :nth-child(4) :first-child {
+  color: rebeccapurple;
+  font-weight: bold;
+}
+
+/* quantity  */
+.width-number {
+  width: 45%;
+  margin-top: 10px;
+}
+.number-product {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  justify-content: space-between;
+}
+.number-product i,
+.number-product span {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.number-product i {
+  width: 10px;
+}
+.number-product i:hover {
+  background-color: blue;
+  color: white;
+}
+.number-product i:hover {
+  cursor: pointer;
+}
+.number-product button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+}
+.number-product button:hover {
+  cursor: pointer;
+  background-color: rgb(129, 161, 131);
+}
+
+/* DECRIPTION */
+.decription {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 70%;
+  margin-bottom: 30px;
+}
+.decription button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+.decription p {
+  text-align: justify;
+}
+
+/* related product */
+.related-product {
+  display: grid;
+  grid-template-columns: 23% 23% 23% 23%;
+  justify-content: space-between;
+  list-style: none;
+  margin-bottom: 30px;
+}
+.title-related {
+  margin: 10px 0;
+}
+.product-item {
+  text-align: center;
+}
+.product-item img {
+  width: 100%;
+}

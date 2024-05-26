@@ -1,0 +1,137 @@
+/* ---css cho ô chat box bới admin------ */
+.chat-box {
+  position: fixed;
+  right: 150px;
+  bottom: 150px;
+  width: 500px;
+  background-color: rgb(155, 143, 143);
+  border-radius: 10px;
+  animation: modal linear 1s;
+}
+/* animation */
+@keyframes modal {
+  /* tạo animation khi click mở modal sẽ xoay phải 10 độ -> 0 độ -> xoay trái -10 độ -> 0 độ */
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+  /* tạo animation khi click mở modal sẽ to dần ra */
+  from {
+    transform: scale(0.2);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.col-1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  border-bottom: 1px solid black;
+}
+.col-1 p {
+  background-color: azure;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+.col-1 p:hover {
+  background-color: rgb(115, 184, 184);
+  cursor: pointer;
+}
+/* /------------ */
+.col-2 {
+  width: 75%;
+}
+/* ------------------- */
+.content-chat {
+  height: 430px;
+  color: white;
+  overflow: auto;
+}
+/* css người dùng */
+.users {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 10px;
+}
+.users p {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+}
+.users p span {
+  display: inline;
+  background-color: blue;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+/* css tin nhắn addmin */
+.admin {
+  margin-top: 10px;
+  padding-left: 10px;
+  width: 90%;
+}
+.admin .admin-content {
+  display: flex;
+  margin-top: 10px;
+}
+.admin .admin-content i {
+  margin-top: 10px;
+  padding-left: 5px;
+}
+
+.admin span {
+  background-color: red;
+  border-radius: 10px;
+  padding: 5px 10px;
+  line-height: 1.5;
+  border-radius: 10px;
+}
+/* -viết nội dung chat box-- */
+.write-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 10px 10px;
+}
+.col-2 i {
+  margin-right: 10px;
+}
+.col-2 input {
+  width: 230px;
+  height: 25px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #8d8686;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5f2525;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #746e6e;
+}

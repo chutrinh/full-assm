@@ -1,0 +1,35 @@
+/* css cho khối bao quanh content hotel */
+#content-hotel {
+  width: 960px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 400px;
+  gap: 10px;
+}
+/* css cho các hình ảnh */
+#content-hotel li img {
+  width: 100%;
+  height: 280px;
+  border-radius: 10px;
+}
+/* css các tiêu đề cho từng hình ảnh */
+#content-hotel li a {
+  padding-left: 10px;
+}
+#content-hotel li h3 {
+  padding-left: 10px;
+}
+#content-hotel li span {
+  padding-left: 10px;
+}
+#content-hotel li p {
+  padding-left: 10px;
+  margin: 10px 0px;
+}
+#content-hotel li .rate {
+  background-color: blue;
+  margin-left: 10px;
+  padding-left: 0;
+  color: white;
+  border-radius: 5px;
+}

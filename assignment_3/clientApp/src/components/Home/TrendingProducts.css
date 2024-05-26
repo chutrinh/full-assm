@@ -1,0 +1,23 @@
+/* css cho danh sách sản phẩm lấy về từ api */
+.top-trending {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.list-products {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 23% 23% 23% 23%;
+  row-gap: 10px;
+  justify-content: space-between;
+}
+.product-item img {
+  width: 100%;
+}
+.product-item {
+  text-align: center;
+}
+.product-item:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
